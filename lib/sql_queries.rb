@@ -26,7 +26,7 @@ end
 
 def selects_most_prominent_color_and_returns_with_count
   "Write your SQL query here"
-  "SELECT color, COUNT color FROM bears GROUP BY color ORDER BY COUNT(*) DESC LIMIT 1;"
+  "SELECT color, COUNT color FROM bears GROUP BY  ORDER BY COUNT(*) DESC LIMIT 1;"
 
 end
 
