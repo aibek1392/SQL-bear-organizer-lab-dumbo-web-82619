@@ -16,7 +16,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   "Write your SQL query here"
-  "SELECT name, age  FROM  bears WHERE 
+  "SELECT name, age  FROM  bears ORDER BY age DESC; "
 end
 
 def select_youngest_bear_and_returns_name_and_age
