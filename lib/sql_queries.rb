@@ -32,7 +32,7 @@ end
 
 def counts_number_of_bears_with_goofy_temperaments
   "Write your SQL query here"
-  "SELECT , COUNT(breed) FROM cats GROUP BY breed"
+  "SELECT breed, COUNT(breed) FROM cats GROUP BY breed"
 end
 
 def selects_bear_that_killed_Tim
