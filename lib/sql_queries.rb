@@ -6,7 +6,7 @@ end
 
 def selects_all_bears_names_and_orders_in_alphabetical_orde
   "Write your SQL query here"
-  "SELECT name ,age  FROM bears WHERE gender = 'F'"
+  "SELECT name ,FROM bears order by alphabet"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
